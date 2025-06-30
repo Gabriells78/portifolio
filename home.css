@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&display=swap');
 
+
 body{
-     
-    border: 2px solid ;
+    
         height: 100vh;
         box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
         background : linear-gradient(20000.60deg,
                                     #22a3b2 25%,
                                         #427bd1 80%,
@@ -16,14 +18,13 @@ body{
                                 } 
 
 .cabecalho{
-   
-    width: 800px;
-    margin: 10% 15%; 
-    font-size: 20pt;
+    width: 2000px;
+    margin: 15% 15%; 
+    font-size: 25pt;
     font-family:"Krona One", sans-serif ;
     display: flex;
-    align-items: center;
-    
+    align-items:start;
+   
 }
 
 .descricao__1{
@@ -32,51 +33,53 @@ body{
     
 
 }
-
+.nome{
+    color: white;
+}
 .cabecalho__nome{
-   font-size: 25pt;
-  
+   font-size: 27pt;
+
 }
 
 .cabecalho__geral{
+    width: 800px;
     display: flex;
     flex-direction: column;
-    gap: 40px;
-}
-
-
-.div_img{
-    margin: 10% -30%;
-    display: flex;
-
+    gap: 15px;
     
- 
 }
+
 
 .imagem{
     display: flex;
-    flex-direction: column;
+
     width: 500px;
-    margin: -35% 60%;
+    margin: 0px 100px;
     border: 10px solid hwb(187 15% 28%);
     border-radius: 10px;
 }
 
 .conteudo{
     width: 800px;
-    margin: -7% 15%;
+  
+    margin: -26% 15%;
     display: flex;
-    align-items: center;
+    flex-direction:column;
     justify-content: space-between;
     font-family: "Krona One", sans-serif;
     font-size: 12pt;
+    padding-top: 10%
+    
     
 }
 
 .conteudo_geral{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
+    
+
+
 }
 
 .cabecalho__links{
